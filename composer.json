@@ -1,0 +1,19 @@
+{
+    "name": "brandongould/pipe-configurator-sourceredis",
+    "description": "Library used by pipe-configurator that sources configuration from Redis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BrandonGould",
+            "email": "brandon@vsysio.net"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1",
+        "php-di/php-di": "^6.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.9"
+    }
+}
