@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pcredis\\": "src/"
+            "pcredis\\": [ "vendor/brandongould/pipe-configurator-sourceredis/src", "src/" ]
         }
     }
 }
