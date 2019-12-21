@@ -15,5 +15,10 @@
     },
     "require-dev": {
         "composer/composer": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "pcredis\\": "src/"
+        }
     }
 }
